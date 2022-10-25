@@ -28,3 +28,12 @@ The FVC 2004 and NIST SD27 fingerprints are subjected to different rotation/scal
 
 ![image](https://user-images.githubusercontent.com/107185323/197777304-6f30b2d4-1793-463d-8881-df2b0ccb42d6.png)
 
+The repository includes:
+
+* Source code for Fingerprint Preprocessing.
+* Source code for Feature Extraction.
+* Source code for Latent minutiae representation, Fingerprint Hash-Table Construction and Matching.
+* Visual Studio code, C, C++, Shell Script codes.
+
+## Citing
+@ARTICLE{ 10.1007/s42979-021-00615-7, AUTHOR={Deshpande, Uttam U. et al.,}, TITLE={Latent Fingerprint Identification System Based on a Local Combination of Minutiae Feature Points}, JOURNAL={SN Computer Science}, VOLUME={2}, YEAR={2021}, URL={ https://doi.org/10.1007/s42979-021-00615-7 }, DOI={ 10.1007/s42979-021-00615-7 }, ISSN={2661-8907}, }
