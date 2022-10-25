@@ -7,10 +7,15 @@ On the basis of the existing partial minutiae characteristics, we have developed
 
 
 ## Introduction
-We have developed a system that identifes a person with an existing small number of minutia features and without requiring fngerprint pre-alignment. A nearest minutiae neighbourhood-based latent fngerprint identifcation algorithm called “Ratio of Minutiae Triangles (RMT)” is proposed to solve fngerprint deformation, rotation, scale, and fingerprint alignment problems.
+We have developed a system that identifes a person with an existing small number of minutia features and without requiring fngerprint pre-alignment. A nearest minutiae neighbourhood-based latent fngerprint identifcation algorithm called “Ratio of Minutiae Triangles (RMT)” is proposed to solve fngerprint deformation, rotation, scale, and fingerprint alignment problems.  
+We used NIST’s FpMV minutiae viewer [37] open-source minutiae detection tools to obtain reliable minutiae features to achieve better matching accuracy. The software is developed above the MINDTCT application and the extraction results are found to be close to the manually marked minutiae. The block diagrams seen in Figs. 4 and 5 explain the steps used to extract minutiae from the FVC2004 and NIST SD27 databases using FpMV, respectively. Since the quality of FVC2004 query fngerprints contains good-quality ridges, the minutiae features are extracted using the FpMV tool without performing any additional pre-processing operation. Minutiae features are extracted in the form of x, y coordinates and are later read by the RMT algorithm for further matching operation.
+
 ![image](https://user-images.githubusercontent.com/107185323/197774869-7ee8292d-4ade-4cc9-aa57-de4c47e7ca5e.png)
 
+We start the fngerprint registration process on the gallery fngerprints stored in the background database. From the minutiae points extracted using the previous FpMV application, we select a reference minutia point. To generate minutiae invariants from the set of minutiae neighborhood points, we select ‘n’ minutia points (n=8) around a reference minutia ‘P’ and arrange them in clockwise sequence P1, P2, P3, P4, P6, P7, and P8 as shown in Fig. 7. 
+
 ![image](https://user-images.githubusercontent.com/107185323/197775124-eccf5fec-6425-4aec-9dd1-5a652ee2de93.png)
+
 
 ![image](https://user-images.githubusercontent.com/107185323/197777055-a258bfa9-eb85-4824-a4a3-6332585ba2ca.png)
 
