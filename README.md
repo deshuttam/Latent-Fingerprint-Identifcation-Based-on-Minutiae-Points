@@ -59,3 +59,18 @@ Matching
 * Run client.ext command to turn the camera on.
 * Print the minutiae image to be tested on a paper and hold infront of the camera to perform matching.
 * Refer the work for [reference](https://github.com/opu-imp/LLAH-Nakai).
+
+## Installation
+* Download `MINU-EXTRACTNET` framework from the link [MINU-EXTRACTNET](https://github.com/deshuttam/MINU-EXTRACTNET).
+* Download `FpMV Minutiae Viewer` using this link [FpMV Minutiae Viewer](https://www.nist.gov/services-resources/software/fingerprint-minutiae-viewer-fpmv). Run `FpMV.exe` from bin folder.
+
+Download models and put into Models folder.
+* MINU-EXTRACTNET: [Googledrive](https://drive.google.com/file/d/1e-fvLhwvw8Sg1uVkM6oBT6QncWZgloap/view?usp=sharing)
+* CoarseNet: [Googledrive](https://drive.google.com/file/d/1bU3T-XQRlKy6C77e5eD-DOD_QlNlAIjR/view?usp=sharing)
+* FineNet: [Googledrive](https://drive.google.com/file/d/1rQw6hs-3hv_7WqJQ8ZYhJhi4laa-9qbY/view?usp=sharing)
+
+## Usage
+* MINU-EXTRACTNET: MINU-EXTRACTNET.ipynb can be called to segment and enhance (preprocess) the images.
+* `FpMV.exe` can be called to extract minutiae features from the preprocessed images obtained from `MINU-EXTRACTNET`.
+* These minutiae points should be represented in the form of a image.
+* Run `server.exe`, `Run client.exe` command to turn the camera on to perfrom matching. Refer to this work [Experimental Study](https://github.com/deshuttam/Minutiae-Clustering-based-Latent-Fingerprint-Matching-Systems)
