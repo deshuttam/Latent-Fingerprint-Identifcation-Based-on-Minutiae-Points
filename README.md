@@ -17,7 +17,7 @@ We start the fngerprint registration process on the gallery fngerprints stored i
 
 ![image](https://user-images.githubusercontent.com/107185323/197775124-eccf5fec-6425-4aec-9dd1-5a652ee2de93.png)
 
-
+The FVC 2004 and NIST SD27 fingerprints are subjected to different rotation/scale operations and then the matching operations are performed
 ![image](https://user-images.githubusercontent.com/107185323/197777055-a258bfa9-eb85-4824-a4a3-6332585ba2ca.png)
 
 ![image](https://user-images.githubusercontent.com/107185323/197777304-6f30b2d4-1793-463d-8881-df2b0ccb42d6.png)
