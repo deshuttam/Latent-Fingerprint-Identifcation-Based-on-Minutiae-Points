@@ -17,7 +17,13 @@ We start the fngerprint registration process on the gallery fngerprints stored i
 
 ![image](https://user-images.githubusercontent.com/107185323/197775124-eccf5fec-6425-4aec-9dd1-5a652ee2de93.png)
 
-The FVC 2004 and NIST SD27 fingerprints are subjected to different rotation/scale operations and then the matching operations are performed
+Hash Table Construction
+The unique HTindex value, a Latent Fingerprint-ID (LFP-ID), a Latent Minutia-ID (LM-ID) and MAV are stored into the corresponding cell of the hash-table. These steps are repeated for the remaining minutia points present in the fngerprint, and a hash-table is constructed. 
+
+![image](https://user-images.githubusercontent.com/107185323/197812764-f1df0ad8-d389-4c6d-8d6a-52235e31b853.png)
+
+The FVC 2004 and NIST SD27 fingerprints are subjected to different rotation/scale operations and then the matching operations are performed.
+
 ![image](https://user-images.githubusercontent.com/107185323/197809235-1ff049da-1600-4ef0-abe3-4c29caf3e38f.png)
 
 ![image](https://user-images.githubusercontent.com/107185323/197777304-6f30b2d4-1793-463d-8881-df2b0ccb42d6.png)
