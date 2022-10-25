@@ -37,3 +37,15 @@ The repository includes:
 
 ## Citing
 @ARTICLE{ 10.1007/s42979-021-00615-7, AUTHOR={Deshpande, Uttam U. et al.,}, TITLE={Latent Fingerprint Identification System Based on a Local Combination of Minutiae Feature Points}, JOURNAL={SN Computer Science}, VOLUME={2}, YEAR={2021}, URL={ https://doi.org/10.1007/s42979-021-00615-7 }, DOI={ 10.1007/s42979-021-00615-7 }, ISSN={2661-8907}, }
+
+Requirements: Software
+
+* FpMV minutiae viewer
+* `Python 2.7 Tensorflow 1.7.0 Keras 2.1.6`
+* Visual Studio
+
+## Preprocessing and Feature Extraction
+* For FVC 2004 dataset, we utilize NIST’s `FpMV Minutiae Viewer` software. x, y minutiae coordinates are obtained and minutiae image is constructed.
+* For NIST SD27 dataset, we use our previously developed `MINU-EXTRACTNET` framework for preprocessing operation [refer](https://github.com/deshuttam/MINU-EXTRACTNET). 
+* For extracting the minutiae points we use `FpMV Minutiae Viewer` software.
+
